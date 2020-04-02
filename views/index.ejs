@@ -1,0 +1,17 @@
+<% include partial/head.ejs %>
+
+    <h1>Socket Game</h1>
+    <div class="timer none" id="timer"></div>
+    <p id="counter"></p>
+    <div id="popup" class="popup">
+      <input id="username" placeholder="Username" type="text" name="" value="">
+      <!-- <label id="usernamelabel" placeholder="Username" for="username">Username</label> -->
+      <button id="startButton">play</button>
+    </div>
+    <p id="winner" class="none"></p>
+    <div id="container" class="none">
+      <div class="quote-display" id="quoteDisplay"></div>
+      <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+    </div>
+
+<% include partial/tail.ejs %>
